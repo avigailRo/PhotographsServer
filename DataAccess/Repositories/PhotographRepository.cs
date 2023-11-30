@@ -22,6 +22,7 @@ namespace DataAccess.Repositories
         public PhotographRepository(ILogger<PhotographRepository> logger)
         {
             this.logger = logger;
+
             handlingJson();
         }
         private async void handlingJson()
